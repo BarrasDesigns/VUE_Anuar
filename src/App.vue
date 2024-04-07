@@ -1,6 +1,7 @@
 <script setup>
 import Header from './components/Header.vue';
 import Contacto from './components/Contacto.vue';
+import Info from './components/Info.vue';
 </script>
 
 <template>
@@ -8,7 +9,7 @@ import Contacto from './components/Contacto.vue';
     <div id="wrapper">
       <Header />
       <Contacto />
-
+      <Info />
     </div>
   </div>
 </template>
