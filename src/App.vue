@@ -5,13 +5,11 @@ import Info from './components/Info.vue';
 </script>
 
 <template>
-  <div>
     <div id="wrapper">
       <Header />
       <Contacto />
       <Info />
     </div>
-  </div>
 </template>
 
 <style scoped></style>

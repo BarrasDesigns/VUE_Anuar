@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="component">
     <div class="objectfit">
 
       <img src="../assets/nene1.jpeg" class="fotoNene" alt="fotoNene">

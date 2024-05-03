@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="component">
         <div class="container">
 
             <div class="container__item">
@@ -34,16 +34,20 @@
 </template>
 <style>
 .container {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "A M I";
+    background-color: blue;
+    border-radius: 20%;
 }
 
 .container__item {
     display: flex;
     flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     text-align: center;
     color: var(--fuentes);
 }
@@ -60,9 +64,19 @@
 .container__item:nth-child(3) {
     grid-area: I;
 }
-.container__item>ul{
+
+.container__item>ul {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+@media (max-width: 760px) {
+    .container {
+        grid-template-areas: "A"
+            "M"
+            "I";
+
+    }
 }
 </style>
