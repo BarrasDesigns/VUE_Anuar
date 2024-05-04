@@ -3,13 +3,16 @@
   --hoverFuentes: blue;
   --hoverEnlaces: white;
 }
-
-body {
+html{
   background-image: url(./assets/background.png);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;  
+  background-position: center center;
   background-size: cover;
-  height: 100vh;
+}
+body {
   font-family: "Roboto", sans-serif;
+ 
+  
 }
 
 .component {
@@ -28,5 +31,3 @@ body {
   margin-left: 2.5%;
   background-color: rgba(0, 0, 0, 0.3);
 }
-
-@media (max-width: 768px) {}

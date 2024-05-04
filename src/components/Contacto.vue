@@ -11,7 +11,7 @@
                     <div class="info">
 
                         <a href="https://wa.me/+528110633292">
-                            <h5>Mi mamí</h5>
+                            <h5>Mi Mami</h5>
                             <img src="../assets/whatsapp.png" class="icon" alt="whatsappLogo">
                         </a>
                     </div>
@@ -20,7 +20,7 @@
                     <div class="info">
 
                         <a href="https://wa.me/+528115028945">
-                            <h5>Mi papi</h5>
+                            <h5>Mi Papi</h5>
                             <img src="../assets/whatsapp.png" class="icon" alt="whatsappLogo">
                         </a>
                     </div>
@@ -66,17 +66,20 @@ a {
 
 .icon {
     max-width: 100px;
+    margin-bottom: 20px;
 }
 
 .icon:hover {
     background-color: var(--hoverEnlaces);
     border-radius: 50%;
-    padding: 20px;
+    padding: 10px;
+    max-width: 70px;
 }
 
 @media (max-width: 760px) {
     ul {
         flex-direction: column;
+        margin-left: -15%;
     }
 }
 </style>
