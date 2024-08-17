@@ -7,7 +7,9 @@
     <div class="title">
 
       <h1>Anuar Barrera</h1>
-      <h2 class="fuzzy-bubbles-regular">Autismo</h2>
+      <h2 class="fuzzy-bubbles-regular">Autismo (No Verbal)</h2>
+      <h3 class="fuzzy-bubbles-regular">Tipo de Sange: O + </h3>
+      <h3>Urgencias: OCA HOSPITAL Monterrey, Nuevo León</h3>
     </div>
   </div>
 </template>
